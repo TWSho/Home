@@ -9,7 +9,7 @@ body {
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: rgb(255, 255, 254);
+  color: rgb(69, 240, 255);
 }
 
 img {
@@ -96,7 +96,7 @@ img {
 }
 
 .header-logo a {
-  /*color: #333;*/
+  color: rgb(255, 255, 254);
 }
 
 .gnav-list {
@@ -117,7 +117,7 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  /*color: #333;*/
+  color: rgb(255, 255, 254);
 }
 .gnav-item a:after {
   position: absolute;
