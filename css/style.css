@@ -250,6 +250,43 @@ img {
 }
 
 /*--------------------------------
+ Certification
+---------------------------------*/
+.certification-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.certification-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 32%;
+  margin-bottom: 50px;
+}
+
+.certification-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.certification-body {
+  flex: 1;
+}
+
+.certification-name {
+  margin-bottom: 10px;
+}
+
+.certification-text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/*--------------------------------
  About
 ---------------------------------*/
 .profile {
