@@ -140,6 +140,8 @@ img {
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
+
+
 .mv {
   display: flex;
   align-items: center;
@@ -215,6 +217,25 @@ img {
 /*--------------------------------
  Skill
 ---------------------------------*/
+progress {
+  -webkit-appearance: none;
+  border-radius: 7px;
+}
+::-webkit-progress-bar {
+  background-color: #666666;
+  border-radius: 7px;
+}
+::-webkit-progress-value {
+  background-color: #ffffff;
+  border-radius: 7px 0 0 7px;
+}
+progress::-moz-progress-bar {
+  border-radius: 7px;
+}
+progress::-ms-fill {
+  border-radius: 7px;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
@@ -230,18 +251,30 @@ img {
   margin-bottom: 50px;
 }
 
-.skill-img {
-  width: 60px;
+.skill-bar {
+  float: right;
+
+  width: 50%; /* 要素の幅を50%に定義 */
+  
   height: auto;
-  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .skill-body {
   flex: 1;
 }
+.skill-a {
+  color: #ffffff;
+}
+.skill-a:hover {
+  color: #ffffff;
+  opacity: .7;
+}
+
 
 .skill-name {
-  margin-bottom: 10px;
+  float: left;
+  width: 50%; /* 要素の幅を50%に定義 */
 }
 
 .skill-text {
