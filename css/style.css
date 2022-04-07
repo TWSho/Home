@@ -296,8 +296,8 @@ progress::-ms-fill {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 32%;
-  margin-bottom: 50px;
+  width: 48%;
+  margin-bottom: 20px;
 }
 
 .certification-img {
@@ -311,7 +311,7 @@ progress::-ms-fill {
 }
 
 .certification-name {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .certification-text {
