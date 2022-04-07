@@ -412,9 +412,10 @@ progress::-ms-fill {
 }
 
 .article-body {
-  max-width: 720px;
+  max-width: 540px;
   margin: 0 auto;
   margin-bottom: 80px;
+  
 }
 
 .article-body h3 {
