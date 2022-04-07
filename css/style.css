@@ -412,6 +412,12 @@ progress::-ms-fill {
 }
 
 .article-body {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  
+}
+.unityroom {
   max-width: 540px;
   margin: 0 auto;
   margin-bottom: 80px;
