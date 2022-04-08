@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='TWSHO ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='TWSHO ポートフォリオ'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="TWSHO ポートフォリオ" />
+  <title>TWSHO ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.jpeg" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">TWSHO</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href=".#works">PRODUCTS</a></li>
+            <li class="gnav-item"><a href="./#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-container">
+          <h2 class="article-title">正せ！森のアニマル</h2>
+          <div class="unityroom">
+            <iframe width="540" height="960" frameborder="0" id="webgl-frame" scrolling="auto" src="https://object-storage.tyo1.conoha.io/v1/nc_df3bdbc45bc04950b558834f5728517a/unityroom_production/game/25892/webgl/play.html"></iframe>
+          </div>
+          <div class="article-body">
+            <p>
+              この作品はUnity1週間ゲームジャム お題「正」の投稿作品です。<br>
+              1週間1人で製作しました。
+            </p>
+            <h3>URL</h3>
+            <p><a href="https://unityroom.com/games/correct_the_animal" target="_blank" rel="noopener">https://unityroom.com/games/correct_the_animal</a></p>
+            <h3>担当</h3>
+            <p>ディレクター・プランナー・プログラマー</p>
+            <h3>ゲーム説明</h3>
+            <p>正しい向きでアニマルを飛ばそう！<br>左側スクリーンタップで左回転、右側スクリーンタップで右回転、上スワイプで飛ばす。</p>
+            
+            <h3>ゲームの発想</h3>
+            <p>
+              より多くの方々に楽しんで頂くため、モバイル端末でプレイできるようなシンプルのゲーム内容及び操作を前提条件として考えていました。
+              <br>一回のプレイで飽きないよう、ランキングを取り入れて、プレイヤー同士がスコアで競えるようなゲームにしました。
+            </p>
+            
+            <h3>苦労したところ</h3>
+            <p>
+              僅かの時間差で勝負するゲーム性と操作感度の両立です。
+              <br>スワイプの操作判定は画面が押された時と離れた時の座標を比較するような方法で実装しましたが、
+              <br>普通のタップ操作でもスワイプ処理が触発されるようになってしまいました。
+              <br>それを無くすため、座標比較する際の時間差と距離も判定の基準にしましたが、
+              <br>誤作動がなくなったものの、高速でのスワイプが反応しなくなったため、何度も感度のチューニングを行いました。
+              <br>リリース後も友人らからフィードバックをもらい、アップデートしていました。
+            </p>
+          </div>
+          <div class="home-link">
+            <a href="./#works">Products一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;2022 TWSHO</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
