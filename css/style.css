@@ -356,13 +356,33 @@ progress::-ms-fill {
   text-align: center;
 }
 
+.contact-text {
+  margin-bottom: 5px;
+}
+.contact-item {
+  color: #ffffff;
+}
+
+.contact-item img{
+  vertical-align: middle;
+  display: inline-block;
+  background-color:#ffffff;
+  border-radius: 20px;
+  
+}
+.contact-item span{
+  display: inline-block;
+  color: #ffffff;
+  font-size: large;
+}
 .contact-item:not(:last-child) {
   margin-right: 10px;
 }
-
-.contact-text {
-  margin-top: 10px;
+.contact-item:not(:last-child) :hover{
+  color: #ffffff;
+  opacity: .7;
 }
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
