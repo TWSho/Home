@@ -393,13 +393,14 @@ progress::-ms-fill {
 .timeline-list-item .content::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 5px;
   left: -5px; 
   width: 10px;
   height: 10px;
   background-color: #ffffff;
   border-radius: 10px;
 }
+
 
 
 
