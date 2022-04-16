@@ -498,6 +498,12 @@ progress::-ms-fill {
   margin-bottom: 80px;
   
 }
+.youtubetate {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
 
 .article-body h3 {
   position: relative;
